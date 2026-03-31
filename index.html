@@ -1,47 +1,47 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pritam Singh | MBA & Digital Transformation</title>
+    <title>Pritam Singh | Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
-        .stat-card { border-left: 4px solid #3b82f6; }
+        body { background-color: #0f172a; }
+        .glass-card { 
+            background: rgba(255, 255, 255, 0.03); 
+            backdrop-filter: blur(12px); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover { border-color: #3b82f6; transform: translateY(-2px); }
+        .accent-gradient { background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); }
     </style>
 </head>
-<body class="bg-[#0f172a] text-slate-200 font-sans selection:bg-blue-500">
+<body class="text-slate-200 font-sans antialiased">
 
-    <nav class="max-w-6xl mx-auto py-6 px-6 flex justify-between items-center">
-        <div class="text-xl font-bold tracking-tighter">PS<span class="text-blue-500">.</span></div>
-        <div class="space-x-6 text-sm font-medium text-slate-400">
-            <a href="mailto:pritamsingh0503.ps@gmail.com" class="hover:text-white transition">Contact</a>
-            <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition">Resume PDF</a>
-        </div>
-    </nav>
-
-    <header class="max-w-6xl mx-auto py-16 px-6 text-center">
-        <h1 class="text-6xl font-extrabold text-white mb-4 tracking-tight">Pritam Singh</h1>
-        <p class="text-2xl text-blue-400 font-medium mb-4">Master of Business Administration</p>
-        <p class="text-slate-400 max-w-2xl mx-auto text-lg leading-relaxed">
-            Industry Process Consultant at <span class="text-white font-semibold">Dassault Systèmes</span>. 
-            Expert in Digital Twins, AEC Automation, and Business Analytics.
+    <header class="max-w-6xl mx-auto py-20 px-6 text-center">
+        <h1 class="text-6xl font-black text-white tracking-tight mb-4">Pritam Singh</h1>
+        <p class="text-xl text-blue-400 font-semibold mb-6">Master of Business Administration | Marketing & Business Analytics</p>
+        <p class="max-w-3xl mx-auto text-slate-400 text-lg leading-relaxed">
+            Industry Process Consultant at Dassault Systèmes. Expert in Digital Twins and Automation, 
+            bridging the gap between Civil Engineering and Strategic Business Intelligence.
         </p>
     </header>
 
-    <section class="max-w-6xl mx-auto px-6 mb-20">
+    <section class="max-w-6xl mx-auto px-6 mb-16">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="glass p-8 rounded-2xl stat-card">
-                <p class="text-5xl font-black text-white mb-2">700%+</p>
-                <p class="text-blue-400 uppercase text-xs tracking-widest font-bold">Bidding Efficiency</p>
+            <div class="accent-gradient p-8 rounded-3xl shadow-xl shadow-blue-500/10">
+                <p class="text-5xl font-black text-white">700%+</p>
+                <p class="text-blue-100 uppercase text-xs tracking-widest font-bold mt-2">Efficiency Increase in Bidding</p>
             </div>
-            <div class="glass p-8 rounded-2xl stat-card">
-                <p class="text-5xl font-black text-white mb-2">07+</p>
-                <p class="text-blue-400 uppercase text-xs tracking-widest font-bold">Global Projects</p>
+            <div class="glass-card p-8 rounded-3xl">
+                <p class="text-5xl font-black text-white">7+</p>
+                <p class="text-slate-400 uppercase text-xs tracking-widest font-bold mt-2">Major Industrial Projects</p>
             </div>
-            <div class="glass p-8 rounded-2xl stat-card">
-                <p class="text-5xl font-black text-white mb-2">10+</p>
-                <p class="text-blue-400 uppercase text-xs tracking-widest font-bold">Custom Business Rules</p>
+            <div class="glass-card p-8 rounded-3xl">
+                <p class="text-5xl font-black text-white">10+</p>
+                <p class="text-slate-400 uppercase text-xs tracking-widest font-bold mt-2">Business Rules Customized</p>
             </div>
         </div>
     </section>
@@ -49,69 +49,85 @@
     <main class="max-w-6xl mx-auto px-6 grid lg:grid-cols-3 gap-8 pb-20">
         
         <div class="lg:col-span-2 space-y-8">
-            <h2 class="text-sm uppercase tracking-[0.2em] text-slate-500 font-bold mb-6">Experience</h2>
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+                Professional Experience
+                <div class="h-px flex-grow bg-slate-800"></div>
+            </h2>
             
-            <div class="glass p-8 rounded-3xl hover:border-blue-500/50 transition">
-                <div class="flex justify-between items-start mb-4">
-                    <h3 class="text-xl font-bold text-white">Industry Process Consultant</h3>
-                    <span class="text-xs bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full border border-blue-500/20">Current</span>
+            <div class="glass-card p-8 rounded-3xl">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">Industry Process Consultant</h3>
+                        <p class="text-blue-400 font-medium">Dassault Systèmes</p>
+                    </div>
+                    <p class="text-slate-500 text-sm font-mono mt-2 md:mt-0">April 2024 — Present</p>
                 </div>
-                <p class="text-blue-400 mb-4 font-medium">Dassault Systèmes | Mumbai</p>
-                <ul class="text-slate-400 space-y-3 text-sm">
-                    <li>• Developed automated solar plant solutions with <span class="text-slate-200">700%+ efficiency</span>.</li>
-                    <li>• Leading BIM aspects for high-value Virtual Twin projects in AEC/IE.</li>
-                    <li>• Customizing 10+ Business Rules Logic using EKL for M&O customers.</li>
+                <ul class="space-y-3 text-slate-400 text-sm">
+                    <li class="flex gap-2"><span>•</span> <span>Automated solar plant solutions using CATIA Visual Scripting, achieving 700%+ efficiency gains.</span></li>
+                    <li class="flex gap-2"><span>•</span> <span>Leading BIM aspects for high-value Virtual Twin projects in AEC and M&O industries.</span></li>
+                    <li class="flex gap-2"><span>•</span> <span>Delivered value across global geographies including APAC and Europe.</span></li>
                 </ul>
             </div>
 
-            <div class="glass p-8 rounded-3xl hover:border-blue-500/50 transition">
-                <h3 class="text-xl font-bold text-white mb-1">BIM Engineer</h3>
-                <p class="text-blue-400 mb-4 font-medium">Alphaabets Digital Labs | 2022 - 2024</p>
+            <div class="glass-card p-8 rounded-3xl">
+                <div class="flex flex-col md:flex-row justify-between mb-4">
+                    <div>
+                        <h3 class="text-xl font-bold text-white">BIM Engineer</h3>
+                        <p class="text-blue-400 font-medium">Alphaabets Digital Labs</p>
+                    </div>
+                    <p class="text-slate-500 text-sm font-mono mt-2 md:mt-0">2022 — 2024</p>
+                </div>
                 <p class="text-slate-400 text-sm leading-relaxed">
-                    Managed large-scale datasets within the 3DEXPERIENCE Cloud and resolved multidisciplinary conflicts using CATIA.
+                    Managed large-scale datasets within the 3DEXPERIENCE Cloud and resolved multidisciplinary conflicts using CATIA and Revit.
                 </p>
             </div>
         </div>
 
         <div class="space-y-8">
-            <h2 class="text-sm uppercase tracking-[0.2em] text-slate-500 font-bold mb-6">The Arsenal</h2>
-            
-            <div class="glass p-6 rounded-3xl">
-                <h4 class="text-white font-bold mb-4 flex items-center gap-2">
-                    <span class="w-2 h-2 bg-blue-500 rounded-full"></span> Analytics
-                </h4>
-                <div class="flex flex-wrap gap-2">
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">Python</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">R</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">SQL</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">Visual Scripting</span>
+            <h2 class="text-2xl font-bold text-white flex items-center gap-3">
+                Technical Arsenal
+                <div class="h-px flex-grow bg-slate-800"></div>
+            </h2>
+
+            <div class="glass-card p-6 rounded-3xl">
+                <h4 class="text-blue-400 font-bold uppercase text-xs tracking-widest mb-4">Data & Analytics</h4>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">Python</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">R</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">SQL</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">Power BI</span>
                 </div>
             </div>
 
-            <div class="glass p-6 rounded-3xl">
-                <h4 class="text-white font-bold mb-4 flex items-center gap-2">
-                    <span class="w-2 h-2 bg-green-500 rounded-full"></span> Software
-                </h4>
-                <div class="flex flex-wrap gap-2">
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">CATIA</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">ENOVIA</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">Revit</span>
-                    <span class="bg-slate-800 px-3 py-1 rounded-lg text-xs border border-slate-700">3DEXPERIENCE</span>
+            <div class="glass-card p-6 rounded-3xl">
+                <h4 class="text-blue-400 font-bold uppercase text-xs tracking-widest mb-4">Engineering Suite</h4>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">CATIA</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">ENOVIA</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">DELMIA</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">Revit</span>
                 </div>
             </div>
 
-            <div class="bg-blue-600/10 border border-blue-500/20 p-6 rounded-3xl">
-                <h4 class="text-white font-bold mb-2 text-sm">MBA Education</h4>
-                <p class="text-xs text-blue-300">DY Patil Vidyapeeth, Pune</p>
-                <p class="text-xs text-slate-500 mt-2">Marketing & Business Analytics (2025)</p>
+            <div class="glass-card p-6 rounded-3xl">
+                <h4 class="text-blue-400 font-bold uppercase text-xs tracking-widest mb-4">Core Strengths</h4>
+                <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">Agile & Scrum</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">Strategic Planning</span>
+                    <span class="bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">EKL Logic</span>
+                </div>
             </div>
         </div>
     </main>
 
-    <footer class="max-w-6xl mx-auto py-12 px-6 border-t border-slate-800 text-center">
-        <p class="text-slate-500 text-sm mb-4">Interested in collaboration?</p>
-        <p class="text-white font-bold mb-2">+91-7381567091</p>
-        <p class="text-blue-400 text-sm">pritamsingh0503.ps@gmail.com</p>
+    <footer class="bg-slate-950/50 py-12 border-t border-slate-900">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <p class="text-slate-500 text-sm mb-6 uppercase tracking-[0.3em]">Ready to drive digital transformation?</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8 text-white font-medium">
+                <a href="tel:+917381567091" class="hover:text-blue-400 transition">📞 +91-7381567091</a>
+                <a href="mailto:pritamsingh0503.ps@gmail.com" class="hover:text-blue-400 transition">📧 pritamsingh0503.ps@gmail.com</a>
+            </div>
+        </div>
     </footer>
 
 </body>
