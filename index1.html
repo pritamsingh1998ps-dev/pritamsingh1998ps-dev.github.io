@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Singh | Live Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+        body { font-family: 'Poppins', sans-serif; background-color: #f0f4f8; }
+        .hero-gradient { background: linear-gradient(135deg, #dbeafe 0%, #ffffff 100%); }
+        .typewriter::after { content: '|'; animation: blink 0.7s infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+        .timeline-card { transition: transform 0.3s ease; }
+        .timeline-card:hover { transform: translateX(10px); }
+    </style>
+</head>
+<body>
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-extrabold text-blue-600 tracking-tighter">PRITAM<span class="text-slate-800">SINGH</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600 uppercase tracking-widest">
+                <a href="#about" class="hover:text-blue-600 transition">About Me</a>
+                <a href="#experience" class="hover:text-blue-600 transition">Experiences</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-gradient min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="relative order-2 md:order-1">
+                <div class="bg-white p-6 rounded-2xl shadow-2xl inline-block mb-6 relative z-10">
+                    <h2 class="text-3xl font-light text-slate-800">Hello! <br> <span class="font-bold text-5xl text-blue-600 typewriter" id="typewriter"></span></h2>
+                </div>
+                <p class="text-slate-600 text-lg mb-8 leading-relaxed">
+                    Industry Process Consultant at <b>Dassault Systèmes</b>. Specializing in AEC Digital Twins and Business Analytics. 
+                    Bridging engineering logic with strategic MBA insights.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="https://linkedin.com" class="text-2xl text-slate-400 hover:text-blue-600 transition"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com" class="text-2xl text-slate-400 hover:text-slate-900 transition"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="order-1 md:order-2 flex justify-center">
+                <div class="w-80 h-80 bg-blue-100 rounded-full overflow-hidden border-8 border-white shadow-2xl">
+                    <img src="assets/profile.png" alt="Pritam Singh" class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-sm font-bold text-blue-600 uppercase tracking-[0.3em] mb-4">About Me</h2>
+            <h3 class="text-4xl font-extrabold text-slate-900 mb-8">MBA & Strategic Analytics</h3>
+            <p class="text-slate-500 leading-loose text-lg">
+                Currently pursuing an MBA in Marketing Management & Business Analytics at DY Patil Vidyapeeth. 
+                With a foundation in Civil Engineering and mastery over the 3DEXPERIENCE platform (CATIA, ENOVIA, DELMIA), 
+                I deliver massive operational efficiencies, including a <b>700%+ increase in bidding speed</b> for global energy leaders.
+            </p>
+        </div>
+    </section>
+
+    <section id="experience" class="py-24 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-slate-900 mb-16 text-center">Experiences</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 timeline-card">
+                    <div class="flex flex-col md:flex-row justify-between mb-4">
+                        <h4 class="text-xl font-bold text-slate-900">Industry Process Consultant</h4>
+                        <span class="text-blue-600 font-bold">2024 - Present</span>
+                    </div>
+                    <p class="text-blue-500 font-semibold mb-4">Dassault Systèmes</p>
+                    <p class="text-slate-500 text-sm">Automating industrial workflows and implementing BIM standards for Virtual Twin projects in the AEC industry.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 timeline-card">
+                    <div class="flex flex-col md:flex-row justify-between mb-4">
+                        <h4 class="text-xl font-bold text-slate-900">BIM Engineer</h4>
+                        <span class="text-slate-400 font-bold">2022 - 2024</span>
+                    </div>
+                    <p class="text-blue-500 font-semibold mb-4">Alphaabets Digital Labs</p>
+                    <p class="text-slate-500 text-sm">Managing large datasets on 3DEXPERIENCE Cloud and performing clash detection across multidisciplinary models.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-xl mx-auto px-6 bg-slate-900 rounded-3xl p-12 text-white shadow-2xl">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch</h2>
+            <form action="https://formspree.io/f/YOUR_ID" method="POST" class="space-y-6">
+                <input type="text" name="name" placeholder="Your Name" class="w-full bg-slate-800 border-none rounded-xl p-4 text-white placeholder-slate-500 focus:ring-2 focus:ring-blue-500">
+                <input type="email" name="email" placeholder="Your Email" class="w-full bg-slate-800 border-none rounded-xl p-4 text-white placeholder-slate-500 focus:ring-2 focus:ring-blue-500">
+                <textarea name="message" rows="4" placeholder="Your Message" class="w-full bg-slate-800 border-none rounded-xl p-4 text-white placeholder-slate-500 focus:ring-2 focus:ring-blue-500"></textarea>
+                <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-xl transition shadow-lg shadow-blue-500/30">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-slate-400 text-sm">
+        <p>&copy; 2026 Pritam Singh. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const text = "I am Pritam Singh.";
+        let i = 0;
+        function type() {
+            if (i < text.length) {
+                document.getElementById("typewriter").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(type, 100);
+            }
+        }
+        window.onload = type;
+    </script>
+</body>
+</html>
